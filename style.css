@@ -1,0 +1,145 @@
+
+/*<!-- HEAD END BODY------------------->*/
+
+*{
+  margin:0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /*overflow-x: hidden;*/
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+/*<!---------------------->*/
+
+
+
+/*<!-- MENU-------------------->*/
+
+
+/*<!-- MENU-------------------->*/
+
+#menu{
+  width: 100%;
+  height: 50px;
+  position:fixed;
+  background-color: #cce5ff;
+  opacity: 0.6;
+}
+
+#navigation{
+  display: inline-flex;
+  text-align: center;
+  padding: 1%;
+  list-style: none;
+}
+
+/*<!-- container0  ANIMATION ! -------------------->*/
+
+#bounceOut{
+@keyframes bounceOut;
+animation-duration: 3s;
+text-align: center;
+}
+
+@keyframes bounceOut {
+  20% {
+    -webkit-transform: scale3d(.9, .9, .9);
+    transform: scale3d(.9, .9, .9);
+  }
+
+  50%, 55% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+}
+
+.bounceOut {
+  -webkit-animation-name: bounceOut;
+  animation-name: bounceOut;
+  text-align: center;
+  font-size: 200%;
+  color: red;
+  padding: 25%;
+
+
+}
+
+/*<!-- container1-------------------->*/
+
+div.conteneur1{
+  background-color:#e5ffff;
+}
+div.block1{
+  text-align: center;
+  color: blue;
+  padding: 20%;
+
+}
+
+/*<!-- container2-------------------->*/
+
+div.conteneur2{
+  background-color:white;
+}
+div.block2{
+  text-align: center;
+  padding: 20%;
+}
+
+/*<!-- container3-------------------->*/
+
+div.conteneur3{
+   background-color:#e5ffff;
+}
+div.block3{
+  text-align: center;
+  padding: 20%;
+}
+
+/*<!-- container4-------------------->*/
+
+div.conteneur4{
+   background-color:#cce5ff;
+}
+div.block4{
+  text-align: center;
+  padding: 20%;
+}
+
+/*<!-- container5-------------------->*/
+
+div.conteneur5{
+   background-color:#1a8aff;
+}
+div.block5{
+  text-align: center;
+  padding: 20%;
+}
+/*<!-- container6-------------------->*/
+
+div.conteneur6{
+   background-color:#cce5ff;
+   height: 20%;
+}
+div.block6{
+  text-align: center;
+  margin: 3%;
+}
+
+
+/*<!-- THE END-------------------->*/
