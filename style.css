@@ -17,6 +17,7 @@ html {
 
 /*<!-- MENU-------------------->*/
 
+
 #menu{
   width: 100%;
   height: 50px;
@@ -39,7 +40,6 @@ html {
 animation-duration: 3s;
 text-align: center;
 }
-
 @keyframes bounceOut {
   20% {
     -webkit-transform: scale3d(.9, .9, .9);
