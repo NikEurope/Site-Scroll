@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<link rel="stylesheet" href="style.css" media="screen" >
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+</head>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $('a[href^="#"]').click(function() {
+    var ou = $(this).attr("href").substr(1);
+    var saut = $("a[id='"+ ou +"']");
+    $('html,body').animate({scrollTop: $(saut).offset().top}, 1500);
+    return false;
+  });
+});
+
+</script>
+
+<!-- SCRIPT END-------------------->
+
+
+<body>
+  
+<!-- MENU-------------------->
+
+<div id= "menu">
+ <ul id= "navigation">
+  <li><a href="#page0">HOME</a></li>
+  <li><a href="#page1">PAGE 1</a></li>
+  <li><a href="#page2">PAGE 2</a></li>
+  <li><a href="#page3">PAGE 3</a></li>
+  <li><a href="#page4">PAGE 4</a></li>
+  <li><a href="#page5">PAGE 5</a></li>
+ </ul>
+</div>
+
+<!-- MENU- END------------------->
+
+<!-- Container 0   ANIMATION !------------------->
+
+<a id="page0"></a>
+<div id="bounceOut" class="bounceOut">
+<h1>ANIMATION !</h1>
+</div>
+
+<!-- Container 1------------------->
+
+<div class="conteneur1">
+ <a id="page1"></a>
+ <div class ="block1">
+
+   <p>Texte 1: Cumque pertinacius ut legum gnarus accusatorem flagitaret atque sollemnia,
+   doctus id Caesar libertatemque superbiam ratus tamquam obtrectatorem audacem
+   excarnificari praecepit, qui ita evisceratus ut cruciatibus membra deessent.</p>
+   <img src="http://www.publicdomainpictures.net/download-picture.php?adresar=60000&soubor=old-scroll-1379880723dZK.jpg&id=55431">
+ </div>
+</div>
+
+<!-- Container2-------------------->
+
+<div class="conteneur2">
+<a id="page2"></a>
+<br>
+  <div class ="block2">
+  <img src="http://www.publicdomainpictures.net/download-picture.php?adresar=60000&soubor=old-scroll-1379880723dZK.jpg&id=55431">
+  <p>Texte 2: Cumque pertinacius ut legum gnarus accusatorem flagitaret atque sollemnia,
+  doctus id Caesar libertatemque superbiam ratus tamquam obtrectatorem audacem
+  excarnificari praecepit, qui ita evisceratus ut cruciatibus membra deessent.</p>
+  </div>
+</div>
+
+<!-- Container3-------------------->
+
+<div class="conteneur3">
+<a id="page3"></a>
+<br>
+  <div class="block3">
+  <p>Texte 3: Cumque pertinacius ut legum gnarus accusatorem flagitaret atque sollemnia,
+    doctus id Caesar libertatemque superbiam ratus tamquam obtrectatorem audacem
+    excarnificari praecepit, qui ita evisceratus ut cruciatibus membra deessent.</p>
+  </div>
+</div>
+
+<!-- Container4-------------------->
+
+<div class="conteneur4">
+<a id="page4"></a>
+<br>
+  <div class="block4">
+  <p>Texte 4: Cumque pertinacius ut legum gnarus accusatorem flagitaret atque sollemnia,
+    doctus id Caesar libertatemque superbiam ratus tamquam obtrectatorem audacem
+    excarnificari praecepit, qui ita evisceratus ut cruciatibus membra deessent.</p>
+  </div>
+</div>
+
+<!-- Container5-------------------->
+
+<div class="conteneur5">
+<a id="page5"></a>
+<br>
+  <div class="block5">
+  <p>Texte 5: Cumque pertinacius ut legum gnarus accusatorem flagitaret atque sollemnia,
+    doctus id Caesar libertatemque superbiam ratus tamquam obtrectatorem audacem
+    excarnificari praecepit, qui ita evisceratus ut cruciatibus membra deessent.</p>
+  </div>
+</div>
+
+<!-- Container5-------------------->
+
+<div class="conteneur6">
+<br>
+  <div class="block6">
+  <center><p>Copyright Nik</p></center>
+  </div>
+</div>
+
+<!-- Container6-------------------->
+
+<!-- THE END-------------------->
+
+  </body>
+</html>
